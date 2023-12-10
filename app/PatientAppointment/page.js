@@ -1,11 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import img1 from "../asserts/1.jpg"
+import Navbar from '../components/Navbar/navbar'
 
 export default function Patient () {
   return (
     <>
-   
+   <Navbar/>
     <div className='name'>Patient Appointment </div>
    <div className='doctor' style={{marginTop : "20px",display : 'flex'}}>
      <form action="#" method="post">

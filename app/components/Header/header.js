@@ -52,27 +52,10 @@ export default function Header() {
                       <Link href="/Login" className="nav__link">Login</Link>
                     </li>
                     <li className="nav__item">
-                      <Link href="/Login" className="nav__link">Register</Link>
+                      <Link href="/Contact" className="nav__link">contact Us</Link>
                     </li>
                   </ul>
-                  <ul className="nav__icons">
-                    <a href="#" className="icon__item">
-                      <svg>
-                        <use xlinkHref="./images/sprite.svg#icon-search" />
-                      </svg>
-                    </a>
-                    <a href="#" className="icon__item">
-                      <svg>
-                        <use xlinkHref="./images/sprite.svg#icon-user" />
-                      </svg>
-                    </a>
-                    <a href="#" className="icon__item">
-                      <svg>
-                        <use xlinkHref="./images/sprite.svg#icon-shopping-basket" />
-                      </svg>
-                      <span>2</span>
-                    </a>
-                  </ul>
+                  
                 </div>
               </nav>
             </div>
